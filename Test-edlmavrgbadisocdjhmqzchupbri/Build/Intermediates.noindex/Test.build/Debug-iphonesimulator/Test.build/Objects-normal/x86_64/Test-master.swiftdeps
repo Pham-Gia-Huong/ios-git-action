@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.13 clang-1100.0.33.7)"
+options: "3f7f08b0f3db0dbcfd33aa731bfdbc32"
+build_time: [1571797086, 732673000]
+inputs:
+  "/Users/h001587/project/Test/Test/ViewController.swift": [1571796840, 991365798]
+  "/Users/h001587/project/Test/Test/AppDelegate.swift": [1571796840, 979953996]
+  "/Users/h001587/project/Test/Test/SceneDelegate.swift": [1571796840, 989612700]
