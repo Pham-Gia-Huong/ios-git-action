@@ -14,7 +14,7 @@ jobs:
       - name: Build 
         run: |
          carthage update --platform ios
-         xcodebuild clean build -project kintone-ios-sdk.xcodeproj -scheme kintone-ios-sdk -sdk iphonesimulator -destination "${destination}"
+         xcodebuild -project Test.xcodeproj -scheme Test -destination 'platform=iOS Simulator,name=iPhone 11,OS=13.0'
         env:
           destination: ${{ matrix.destination }}
       - name: Upload binaries to release
