@@ -11,6 +11,8 @@ jobs:
           destination: ['platform=iOS Simulator,OS=12.4,name=iPhone Xs Max']
     steps:
       - uses: actions/checkout@master
+      - name: list version
+        run: xcrun simctl list
       - name: Build 
         run: |
          xcodebuild -project Test.xcodeproj -scheme Test -destination 'platform=iOS Simulator,OS=12.4,name=iPhone Xs Max'
